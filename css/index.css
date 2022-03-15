@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+body{
+    font-size:35px;
+}
+
+h1{
+    text-align:center
+}
+
+div{
+    display:flex;
+    justify-content:center;
+    margin-right:300px;
+}
+/* style="display:flex;justify-content:center;" */
+
+ul{
+    list-style-type:none;
+}
+
+li{
+    border:solid 1px black;
+    border-radius:5px;
+    padding:10px;
+    width:200%;
+    text-align:center;
+}
+
+a{
+    text-decoration:none;
+}
+
+.li1{
+    background-image:url("../img/漢文リンクイメージ.jpeg"); 
+    background-size:500px 101%;
+    background-position:center;
+    background-repeat:no-repeat; 
+    background-blend-mode:lighten;
+    background-color:rgba(255, 255, 255, 0.4);
+}
+
+.li2{
+    background-image:url("../img/歴史リンクイメージ.jpg");
+    background-size:cover;
+    background-position:center;
+    background-blend-mode:lighten;
+    background-color:rgba(255, 255, 255, 0.4);
+}
+
+.li3{
+    background-image:url("../img/体育リンクイメージ.jpg");
+    background-size:cover;
+    background-position:bottom;
+    background-blend-mode:lighten;
+    background-color:rgba(255,255, 255, 0.4);
+}
