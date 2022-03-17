@@ -25,10 +25,14 @@ li{
     padding:10px;
     width:200%;
     text-align:center;
+    background-blend-mode:lighten;
+    background-color:rgba(255, 255, 255, 0.57);
+    text-shadow:1px 0 5px white;
 }
 
 a{
     text-decoration:none;
+    color:black;
 }
 
 .li1{
@@ -36,29 +40,22 @@ a{
     background-size:500px 101%;
     background-position:center;
     background-repeat:no-repeat; 
-    background-blend-mode:lighten;
-    background-color:rgba(255, 255, 255, 0.4);
+
 }
 
 .li2{
     background-image:url("../img/歴史リンクイメージ.jpg");
     background-size:cover;
     background-position:center;
-    background-blend-mode:lighten;
-    background-color:rgba(255, 255, 255, 0.4);
 }
 
 .li3{
     background-image:url("../img/体育リンクイメージ.jpg");
     background-size:cover;
     background-position:bottom;
-    background-blend-mode:lighten;
-    background-color:rgba(255,255, 255, 0.4);
 }
 
 .li4{
     background-image:url("../img/数学リンクイメージ.jpg");
     background-size:cover;
-    background-blend-mode:lighten;
-    background-color:rgba(255,255, 255, 0.4);
 }
