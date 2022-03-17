@@ -55,3 +55,10 @@ a{
     background-blend-mode:lighten;
     background-color:rgba(255,255, 255, 0.4);
 }
+
+.li4{
+    background-image:url("../img/数学リンクイメージ.jpg");
+    background-size:cover;
+    background-blend-mode:lighten;
+    background-color:rgba(255,255, 255, 0.4);
+}
